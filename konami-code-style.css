@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'konamiregular';
+	src: url('fonts/konami-webfont.eot');
+	src: url('fonts/konami-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/konami-webfont.woff') format('woff'),
+	     url('fonts/konami-webfont.ttf') format('truetype'),
+	     url('fonts/konami-webfont.svg#konamiregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	color:black;
+}
+
+body{
+	font-family: 'konamiregular';
+	font-size:52px;
+	line-height:52px;
+}
+.outer-container{
+	background-color:black;
+	width:505px;
+	height:65px;
+	position:relative;
+	-moz-border-radius: 45px;
+	border-radius: 45px;
+}
+
+.container{
+	background-color:brown;
+	width:485px;
+	height:50px;
+	top:7px;
+	left:10px;
+	position:absolute;
+	-moz-border-radius: 45px;
+	border-radius: 45px;
+}
+
+.div-text {
+	margin-left:20px;
+	top:3px;
+	position:absolute;
+	text-align:center;	
+}
+
+.letter {
+	width:45px;
+	float:left;
+}
+
+.white {
+	color:white;
+}
+
